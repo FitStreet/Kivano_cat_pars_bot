@@ -5,7 +5,7 @@ from telebot import types
 import io
 import csv
 
-bot = telebot.TeleBot("6602591925:AAEBAc9uWx0vrJsRwmZTXPfMZzmKv1LdCG4")
+bot = telebot.TeleBot("Your Token here")
 
 keyboard = types.ReplyKeyboardMarkup(row_width=2, resize_keyboard=True)
 button_parse = types.KeyboardButton("/parse")
